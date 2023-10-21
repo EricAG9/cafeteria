@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(150, 230, 216);
+  background-color: rgb(182, 156, 72);
 }
 
 header{
@@ -25,12 +25,12 @@ a{
    filter: blur(0);
    font-size: 40px;
    padding: 40px;
-   color: rgb(0, 255, 13);  
+   color: rgb(202, 165, 63);  
    width: 50%;
 }
 
 nav {
-  background-color: #ac802f;
+  background-color: #070707;
   margin-top: 5px;
   line-height: 28px;
 }
@@ -160,7 +160,7 @@ main .articleContainer article figure img {
   color: rgb(192, 126, 45);
 }
 
-.p {
+p {
   text-align: center;
   color: cornsilk;
 }
@@ -176,7 +176,7 @@ main .articleContainer article figure img {
 }
 
 .maquinas article {
-  background-color: rgb(25, 218, 218);
+  background-color: #ac802f;;
   padding: 20px;
   margin-bottom: 20px;
   width: 20%;
