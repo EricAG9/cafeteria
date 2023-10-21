@@ -1,0 +1,250 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(150, 230, 216);
+}
+
+header{
+  min-height: 150px;
+  color: aquamarine;
+  background: url("./assents/1000_F_292200620_KRbkdllqlZLSe7HhHV6M9LagR8f2ocKz.jpg" );
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title{
+   filter: blur(0);
+   font-size: 40px;
+   padding: 40px;
+   color: rgb(0, 255, 13);  
+   width: 50%;
+}
+
+nav {
+  background-color: #ac802f;
+  margin-top: 5px;
+  line-height: 28px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: black;
+}
+
+nav ul li {
+  margin-left: 30px;
+  padding: 10px;
+  display: inline;
+  margin-right: 40px;
+  color: #ffffff;
+}
+
+nav ul li a {
+  size: 15px;
+  padding: 2px 10px;
+}
+
+nav ul li a:hover {
+  transition: 0.5s;
+	transform: scale(1.1);
+	overflow: hidden;
+	color: #fff8dc;
+	border: none;
+    transform:  scale(1.5); 
+    border: inset;
+    box-shadow: 4px 5px 4px rgba(0,0,0,1.25);
+    border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #052d4e;
+  border-radius: 5px;
+}
+
+nav ul li a:focus {
+  text-decoration: none;
+}
+
+.imgLogo {
+  padding: 20px;
+  width: 220px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+h1 {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+  height: fit-content;
+}
+
+main aside {
+  padding: 20px;
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+img {
+  width: 200px; 
+  height: 150px;
+  border-radius: 5px;
+}
+
+.articleContainer {
+  position:absolute;
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  height: 100%;
+  margin-top: -300px;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.articleContainer article {
+  background-color: #ac802f;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  display: inline-block;
+  color: #fff8dc;
+}
+
+.articleContainer article {
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+main .articleContainer article figure {
+  margin-bottom: 8px;
+}
+
+main .articleContainer article figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.containerCafeteria {
+  text-align: center;
+}
+
+.cafeteria {
+  width: 300px; 
+  height: 200px;
+  border-radius: 5px;
+}
+
+.containerProdutos {
+  background-color: darkred;
+  text-align: center;
+  padding: 10px;
+}
+
+.produtosContainer {
+  text-align: center;
+  padding: 20px;
+  color: rgb(192, 126, 45);
+}
+
+.p {
+  text-align: center;
+  color: cornsilk;
+}
+
+.maquinas {
+  display: inline-block;
+  width: 70%;
+  align-items: center;
+  height: 100%;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+.maquinas article {
+  background-color: rgb(25, 218, 218);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.containerAssine {
+  background-color: #855919;
+}
+
+.sectionTitle {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: blanchedalmond;
+}
+
+form {
+  text-align: center;
+}
+
+.subscriptions {
+  height: fit-content;
+  padding: 40px 0;
+  background-color: #ac802f;
+}
+
+.subscriptions form {
+  width: 60%;
+  margin: auto;
+  color: aqua;
+}
+
+.subscriptions label {
+  display: block;
+  margin: 20px 0;
+  color: rgb(255, 255, 255);
+}
+
+.subscriptions label input {
+  border: 1px solid #015499;
+  border-radius: 5px;
+}
+
+.subscriptions label input:not([type="checkbox"]) {
+  width: 300px;
+  height: 32px;
+  padding-left: 10px;
+}
+
+.subscriptions button {
+  background-color: #015499;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(41, 39, 39);
+  height: 60px;
+}
+
+.footer {
+  text-align: center;
+  color: aquamarine;
+  padding: 20px;
+}
