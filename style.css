@@ -30,7 +30,7 @@ a{
 }
 
 nav {
-  background-color: #070707;
+  background-color: #333;
   margin-top: 5px;
   line-height: 28px;
 }
@@ -38,7 +38,7 @@ nav {
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: black;
+  background-color: #333;
 }
 
 nav ul li {
@@ -239,12 +239,34 @@ form {
 }
 
 footer {
-  background-color: rgb(41, 39, 39);
-  height: 60px;
+  background-color: #333;
 }
 
 .footer {
-  text-align: center;
-  color: aquamarine;
+  background-color: #333;
+  color: #fff;
   padding: 20px;
+  text-align: center;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+/*
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff; 
+}
+
+.footer-nav a:hover {
+  text-decoration: underline; 
 }
